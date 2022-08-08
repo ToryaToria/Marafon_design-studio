@@ -1,1 +1,3 @@
-# Marafon_design-studio
+# Marathon_design-studio
+
+Марафон "Заверстаю" htmlAcademy
