@@ -1,0 +1,371 @@
+/* ------------------ fonts -----------------------*/
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v25-latin_cyrillic-regular.woff2") format("woff2");
+  src: url("../fonts/montserrat-v25-latin_cyrillic-regular.woff") format("woff");
+  font-display: swap;
+  }
+
+	@font-face {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 500;
+		src: url("../fonts/montserrat-v25-latin_cyrillic-500.woff2") format("woff2");
+		src: url("../fonts/montserrat-v25-latin_cyrillic-500.woff") format("woff");
+		font-display: swap;
+		}
+
+h1 {
+	font-size: 50px;
+	line-height: 62px;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.aboutUs_h2,
+.team_h2,
+.portfolio_h2,
+.work_h2,
+.fidback_h2,
+.appleat_h2  {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.appleat_h2,
+.appleat_p {
+	color: #ffffff;
+	text-align: left;
+}
+
+.appleat_h2 {
+	padding-bottom: 24px;
+}
+
+.appleat_p {
+	padding-bottom: 44px;
+}
+
+.form_txt {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	color: #ffffff;
+}
+
+.application_txt {
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+h3, .h3_btn-portfolio {
+	font-size: 30px;
+	line-height: 37px;
+	font-weight: 500;
+}
+
+.statistic_txt {
+	font-size: 30px;
+	line-height: 37px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.item_number_txt {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: center;
+}
+
+.nav_txt {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.logo_txt {
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.p_white {
+	color: #ffffff;
+}
+
+.cite_txt {
+	text-transform: uppercase;
+}
+
+.btn_txt {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+		/*----------------- main -------------------------*/
+		*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+  font-weight: 400;
+	line-height: 30px;
+  color: #533738;
+}
+
+img {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: contain;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p, blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+button, input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+  border: 1px solid #fff;
+}
+
+.btn {
+	display: block;
+	background-color: #CC8B86;
+	padding: 25px 68px;
+}
+/*--------------- header -------------------*/
+.header {
+padding-top: 30px;
+padding-bottom: 80px;
+border: 1px solid red;
+
+}
+
+.nav-list {
+	gap: 26px;
+}
+
+.nav-item {
+	display: block;
+	padding: 8px 4px;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+	background-color: aquamarine;
+}
+
+/*---------------- offer --------------------*/
+
+.offer {
+	background-color: #f1eeba;
+	background-image: url(../img/offer_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -116px;
+}
+
+.offer_wrapp {
+	margin-left: 80px;
+	width: 534px;
+	padding-bottom: 168px;
+}
+
+.offer_h1 {
+	padding-bottom: 24px;
+}
+
+.offer_p {
+	padding-bottom: 21px;
+}
+
+/*---------------- aboutUs --------------------*/
+.aboutUs {
+padding-top: 65px;
+}
+
+.aboutUs_wrapp {
+	padding-left: 82px;
+	padding-right: 82px;
+	padding-bottom: 21px;
+
+	gap: 64px;
+	align-items: flex-start;
+	border: 1px solid green;
+}
+
+.statistics {
+	padding-top: 85px;
+	padding-bottom: 81px;
+	padding-left: 82px;
+	padding-right: 82px;
+	background-color: #8D7370;
+}
+
+/*---------------- portfolio --------------------*/
+.portfolio {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.portfolio_flex {
+	flex-wrap: wrap;
+	row-gap: 30px;
+	padding-bottom: 40px;
+}
+
+.btn-portfolio {
+	display: block;
+	margin: 0 auto;
+	padding-right: 75px;
+background-color: transparent;
+background-image: url(../img/arrow.svg);
+background-repeat: no-repeat;
+background-position: 225px;
+}
+
+/*------------------------------- team --------------------*/
+.team {
+	padding-top: 50px;
+	padding-bottom: 80px;
+	background-color: #E2C4BA;
+}
+
+.team_wrapp {
+	padding-left: 81px;
+	padding-right: 82px;
+	padding-bottom: 35px;
+	align-items: stretch;
+	gap: 38px;
+}
+
+.team_item {
+	width: 320px;
+}
+
+/*------------------------------- work --------------------*/
+.work_flex {
+	align-items: stretch;
+}
+
+.work_item {
+	width: 285px;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item_number {
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	background-color: #8D7370;
+}
+
+/*------------------------------- fidback --------------------*/
+.fidback {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.fidback_wrapp {
+	padding-left: 183px;
+	padding-right: 183px;
+}
+
+.blockquote {
+	padding-right: 20px;
+}
+
+.cite {
+	display: block;
+	padding-top: 19px;
+}
+
+/*------------------------------- appleat --------------------*/
+.appleat {
+	background-color: #8D7370;
+}
+
+.appleat_wrapp {
+	padding-top: 50px;
+	padding-left: 82px;
+	padding-bottom: 186px;
+	padding-right: 20px;
+}
+
+.appleat_form {
+	display: block;
+
+	width: 100%;
+	padding-bottom: 33px;
+
+	background-color: transparent;
+}
+
+/*------------------------------- footer --------------------*/
+.footer  {
+	padding-top: 37px;
+	padding-bottom: 37px;
+
+}
