@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Design-studio</title>
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body >
@@ -52,9 +52,9 @@
 				«Да! Это именно то, что действительно достойно моего дома!»</p>
 			</div>
 			<ul class="statistics flex">
-				<li class="statistic_txt">5 <br> лет опыта</li>
-				<li class="statistic_txt">100 <br> проектов</li>
-				<li class="statistic_txt">10  <br>наград</li>
+				<li class="statistic_txt"><span class="stat_txt_numb">5</span><br> лет опыта</li>
+				<li class="statistic_txt"><span class="stat_txt_numb">100</span>  <br> проектов</li>
+				<li class="statistic_txt"><span class="stat_txt_numb">10</span>  <br>наград</li>
 			</ul>
 		</section>
 
@@ -62,15 +62,17 @@
 			<h2 class="portfolio_h2" id="portfolio">Наши работы</h2>
 
 			<div >
-				<div>
-					<h3>Квартира-студия 30 кв.м.</h3>
-					<p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
-						на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
-
-				</div>
-
 				<div class="flex portfolio_flex ">
-				<img src="./img/catalog1.jpg" alt="">
+					<div class="portfolio_wrapp">
+						<img src="./img/catalog1.jpg" alt="">
+
+						<div class="pos_abs">
+							<h3 class="portfolio_txt-h3">Квартира-студия 30 кв.м.</h3>
+						<p class="portfolio_txt">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+							на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+						</div>
+	
+					</div>
 				<img src="./img/catalog2.jpg" alt="">
 				<img src="./img/catalog3.jpg" alt="">
 				<img src="./img/catalog4.jpg" alt="">
@@ -139,8 +141,9 @@
 						Работа шла быстро, было очень приятно общаться и взаимодествовать
 						с сотрудниками. Не ожидала, что это будет так легко!
 						<br><br>
-						Буду советовать и своим друзьям к вам обращаться!»</blockquote>
-					<cite class="cite">АННА БЕЛОВСКАЯ</cite>
+						Буду советовать и своим друзьям к вам обращаться!»
+						<cite class="cite cite_txt">Анна Беловская</cite>
+					</blockquote>
 				</div>
 				<div>
 					<img src="./img/fidback1.jpg" alt="" width="407" height="272">
