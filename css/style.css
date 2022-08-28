@@ -26,6 +26,7 @@ h1 {
 h2 {
 	font-size: 40px;
 	line-height: 50px;
+	text-transform: uppercase ;
 }
 
 .aboutUs_h2,
@@ -36,6 +37,7 @@ h2 {
 .appleat_h2  {
 	text-align: center;
 	padding-bottom: 40px;
+	font-weight: 400;
 }
 
 .appleat_h2,
@@ -50,6 +52,7 @@ h2 {
 
 .appleat_p {
 	padding-bottom: 44px;
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .form_txt {
@@ -67,9 +70,11 @@ h2 {
 }
 
 h3, .h3_btn-portfolio {
-	font-size: 30px;
+	font-family: inherit;
+		font-size: 30px;
 	line-height: 37px;
 	font-weight: 500;
+	color: inherit;
 }
 
 .statistic_txt {
@@ -79,6 +84,12 @@ h3, .h3_btn-portfolio {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+.stat_txt_numb {
+	font-size: 50px;
+	line-height: 62px;
+	font-weight: 400;
 }
 
 .item_number_txt {
@@ -106,6 +117,7 @@ h3, .h3_btn-portfolio {
 
 .cite_txt {
 	text-transform: uppercase;
+font-style: normal;
 }
 
 .btn_txt {
@@ -125,12 +137,13 @@ html {
   height: 100%;
 }
 
-html, body {
+body {
   font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
   font-weight: 400;
 	line-height: 30px;
   color: #533738;
+	background-color: #EFE6E4;
 }
 
 img {
@@ -218,7 +231,7 @@ border: 1px solid red;
 	background-color: #f1eeba;
 	background-image: url(../img/offer_bg.jpg);
 	background-repeat: no-repeat;
-	background-position: 0px -116px;
+	/* background-position: 0px -116px; */
 }
 
 .offer_wrapp {
@@ -261,7 +274,7 @@ padding-top: 65px;
 /*---------------- portfolio --------------------*/
 .portfolio {
 	padding-top: 65px;
-	padding-bottom: 65px;
+	padding-bottom: 50px;
 }
 
 .portfolio_flex {
@@ -273,12 +286,43 @@ padding-top: 65px;
 .btn-portfolio {
 	display: block;
 	margin: 0 auto;
-	padding-right: 75px;
+	padding-right: 85px;
 background-color: transparent;
 background-image: url(../img/arrow.svg);
 background-repeat: no-repeat;
-background-position: 225px;
+background-position: 240px;
 }
+
+.portfolio_wrapp {
+	position: relative;
+}
+
+.pos_abs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 86px;
+	
+	padding-bottom: 129px;
+	background-color: rgba(100, 72, 69, 0.8);;
+
+}
+
+.portfolio_txt-h3 {
+	text-align: center;
+	padding-left: 95px;
+	padding-right: 95px;
+	padding-bottom: 10px;
+	color: #ffffff;
+
+}
+
+.portfolio_txt {
+	color: #ffffff;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
 
 /*------------------------------- team --------------------*/
 .team {
@@ -324,13 +368,43 @@ background-position: 225px;
 
 /*------------------------------- fidback --------------------*/
 .fidback {
+
+
 	padding-top: 65px;
 	padding-bottom: 65px;
 }
 
 .fidback_wrapp {
+	position: relative;
+	
 	padding-left: 183px;
 	padding-right: 183px;
+}
+
+.fidback_wrapp::before,
+.fidback_wrapp::after {
+
+	position: absolute;
+	top:50%;
+	margin-top: -36px;
+
+content: "";
+width: 72px;
+height: 72px;
+border-radius: 50%;
+background-color: #CC8B86;
+background-repeat: no-repeat ;
+background-position: center;
+}
+
+.fidback_wrapp::before {
+left: 85px;
+background-image: url(../img/arrowL.svg);
+}
+.fidback_wrapp::after {
+right: 85px;
+background-image: url(../img/arrowR.svg);
+
 }
 
 .blockquote {
@@ -357,8 +431,9 @@ background-position: 225px;
 .appleat_form {
 	display: block;
 
+	border-bottom: 1px solid #fff;
 	width: 100%;
-	padding-bottom: 33px;
+	margin-bottom: 33px;
 
 	background-color: transparent;
 }
