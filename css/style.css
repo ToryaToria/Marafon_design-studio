@@ -195,7 +195,6 @@ button, input {
   margin: 0 auto;
 	padding-left: 100px;
 	padding-right: 100px;
-  border: 1px solid #fff;
 }
 
 .btn {
@@ -207,8 +206,6 @@ button, input {
 .header {
 padding-top: 30px;
 padding-bottom: 80px;
-border: 1px solid red;
-
 }
 
 .nav-list {
@@ -231,7 +228,6 @@ border: 1px solid red;
 	background-color: #f1eeba;
 	background-image: url(../img/offer_bg.jpg);
 	background-repeat: no-repeat;
-	/* background-position: 0px -116px; */
 }
 
 .offer_wrapp {
@@ -247,7 +243,6 @@ border: 1px solid red;
 .offer_p {
 	padding-bottom: 21px;
 }
-
 /*---------------- aboutUs --------------------*/
 .aboutUs {
 padding-top: 65px;
@@ -260,7 +255,6 @@ padding-top: 65px;
 
 	gap: 64px;
 	align-items: flex-start;
-	border: 1px solid green;
 }
 
 .statistics {
@@ -322,9 +316,8 @@ background-position: 240px;
 	padding-left: 45px;
 	padding-right: 45px;
 }
-
-
 /*------------------------------- team --------------------*/
+
 .team {
 	padding-top: 50px;
 	padding-bottom: 80px;
@@ -342,8 +335,8 @@ background-position: 240px;
 .team_item {
 	width: 320px;
 }
-
 /*------------------------------- work --------------------*/
+
 .work_flex {
 	align-items: stretch;
 }
@@ -365,18 +358,15 @@ background-position: 240px;
 	border-radius: 50%;
 	background-color: #8D7370;
 }
-
 /*------------------------------- fidback --------------------*/
+
 .fidback {
-
-
 	padding-top: 65px;
 	padding-bottom: 65px;
 }
 
 .fidback_wrapp {
 	position: relative;
-	
 	padding-left: 183px;
 	padding-right: 183px;
 }
@@ -401,10 +391,10 @@ background-position: center;
 left: 85px;
 background-image: url(../img/arrowL.svg);
 }
+
 .fidback_wrapp::after {
 right: 85px;
 background-image: url(../img/arrowR.svg);
-
 }
 
 .blockquote {
@@ -415,8 +405,8 @@ background-image: url(../img/arrowR.svg);
 	display: block;
 	padding-top: 19px;
 }
-
 /*------------------------------- appleat --------------------*/
+
 .appleat {
 	background-color: #8D7370;
 }
@@ -437,10 +427,8 @@ background-image: url(../img/arrowR.svg);
 
 	background-color: transparent;
 }
-
 /*------------------------------- footer --------------------*/
 .footer  {
 	padding-top: 37px;
 	padding-bottom: 37px;
-
 }
